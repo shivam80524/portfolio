@@ -188,7 +188,7 @@ Example config:
 ---
 
 ## 🆘 Troubleshooting & Support
-
+ 
 - **AI Chat not working?** Check your API key and quota.
 - **Images missing?** Ensure correct paths and filenames.
 - **Build failing?** Validate JSON and run type checks.
