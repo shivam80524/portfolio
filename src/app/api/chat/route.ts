@@ -10,10 +10,11 @@ import { getProjects } from './tools/getProjects';
 import { getResume } from './tools/getResume';
 import { getSkills } from './tools/getSkills';
 
-
 export const maxDuration = 30;
-
 export const dynamic = 'force-dynamic';
+export const fetchCache = 'force-no-store';
+
+// ... rest of your code stays the same
 
 // Create Google AI provider with explicit API key
 const google = createGoogleGenerativeAI({
